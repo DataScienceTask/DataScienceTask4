@@ -3,3 +3,6 @@
 
 # Personal files
 to_be_ignored.txt
+
+# Pytest cache
+__pycache__/

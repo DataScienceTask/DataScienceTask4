@@ -11,4 +11,4 @@ services:
     build: .
     volumes:
       - .:/app
-    command: python -c "from unique_element import find_unique; print(find_unique([1,2,2,3,3]))"
+    entrypoint: ["python", "main.py"]
